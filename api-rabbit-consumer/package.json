@@ -9,5 +9,8 @@
     "amqplib": "^0.8.0",
     "consign": "^0.1.6",
     "express": "^4.17.1"
+  },
+  "scripts": {
+    "dev": "node ./src/rabbitmq/receive.js"
   }
 }
