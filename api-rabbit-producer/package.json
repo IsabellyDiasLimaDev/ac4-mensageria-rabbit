@@ -1,0 +1,19 @@
+{
+  "name": "api-rabbit-producer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Isabelly Dias",
+  "license": "MIT",
+  "dependencies": {
+    "@types/amqplib": "^0.5.13",
+    "amqplib": "^0.8.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "dev": "ts-node ./src/server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
